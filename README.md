@@ -7,6 +7,7 @@ Backlog
 - [x] Chaos generation logic  
 - [ ] API calls to reset and Stop/Start instances  
 - [ ] Logging  
+- [ ] Add Paket and Fake
 - [ ] Support for "Instance groups"
   
 Consider  
