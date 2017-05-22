@@ -7,6 +7,7 @@ Backlog
 - [x] Chaos generation logic  
 - [ ] API calls to reset and Stop/Start instances  
 - [ ] Logging  
+- [ ] Support for "Instance groups"
   
 Consider  
 - [ ] .Net core compatibility  
