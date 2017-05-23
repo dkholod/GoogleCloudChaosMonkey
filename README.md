@@ -5,8 +5,8 @@ Insired by principles of [chaos engeneering](http://principlesofchaos.org/) and 
 Backlog  
 - [x] Configuration  
 - [x] Chaos generation logic  
-- [ ] API calls to reset and Stop/Start instances  
-- [ ] Logging  
+- [x] API calls to reset and Stop/Start instances  
+- [x] Logging  
 - [ ] Add Paket and Cake automation
 - [ ] Support for "Instance groups"
   
