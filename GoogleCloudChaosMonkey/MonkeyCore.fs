@@ -32,6 +32,7 @@ type InstantFailure = {
     ProjectId: string
     Zone: string
     Failure: FaultStrategy
+    Delay: TimeInterval
     }
 
 let parseStrategy = function
@@ -66,6 +67,7 @@ let generateFailure (group: ChaosGroup) (probability: float) (instanceIdx:int) =
                 Instance = instance
                 ProjectId = group.ProjectId
                 Zone = group.Zone
+                Delay = group.Failure.WaitBeforeStart
                 }
 
     match chance with
