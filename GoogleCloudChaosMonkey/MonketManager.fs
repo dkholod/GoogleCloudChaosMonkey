@@ -2,6 +2,7 @@
 
 open System
 open MonkeyCore
+open Serilog
 
 let getRandomizer =
     let r = new Random()
@@ -20,12 +21,12 @@ let induceChaos group (t: System.Timers.Timer) =
 
     match failure with
         | Some f -> GoogleCloud.induce f
-        | None -> printfn "Due to selected probability, no failure induced to group %s" group.Name
-    
+        | None -> Log.Logger.Information("No failure induced to group {group} (probability {probability}%)", group.Name, (group.Failure.Probability * 100.)|> int)
+
     t.Start() // restart timer
 
 let startTimer group =
-    printfn "Registered timer for group: %s" group.Name
+    Log.Logger.Information ("Created scheduler for group: {group}", group.Name)
     let period = group.Failure.Interval |> toSeconds |> toMiliseconds
     let timer = new System.Timers.Timer(period)
     timer.Elapsed.AddHandler(fun s e -> induceChaos group timer)

@@ -3,7 +3,7 @@ duration: 22m
 groups:
   - name: mongo-cluster
     zone: us-central1-c
-    instances: [instance-1, mongo-2]
+    instances: [instance-1, instance-2]
     failure:
       interval: 10s
       probability: 0.5
