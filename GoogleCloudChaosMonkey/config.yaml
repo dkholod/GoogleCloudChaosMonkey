@@ -3,17 +3,8 @@ duration: 22m
 groups:
   - name: mongo-cluster
     zone: us-central1-c
-    instances: [mongo1, mongo2]
+    instances: [instance-1, mongo-2]
     failure:
-      interval: 20s
-      wait-before-start: 20s
-      probability: 0.5
-      strategy: StopStart
-  - name: api-cluster
-    zone: us-central1-c
-    instances: [api1, api2]
-    failure:
-      interval: 30s
-      wait-before-start: 20s
+      interval: 10s
       probability: 0.5
       strategy: Reset
