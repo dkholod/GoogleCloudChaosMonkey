@@ -3,6 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.4
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".paket", ".paket", "{A9FCC262-7ABA-49DA-90CF-61DAAB14578A}"
+	ProjectSection(SolutionItems) = preProject
+		paket.dependencies = paket.dependencies
+	EndProjectSection
+EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "GoogleCloudChaosMonkey", "GoogleCloudChaosMonkey\GoogleCloudChaosMonkey.fsproj", "{CA1749B7-2939-4F08-9EFF-867AC23AAC36}"
 EndProject
 Global

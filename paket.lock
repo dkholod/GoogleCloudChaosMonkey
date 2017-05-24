@@ -1,0 +1,24 @@
+NUGET
+  remote: https://www.nuget.org/api/v2
+    FSharp.Configuration (1.1) - framework: >= net462
+    Google.Apis (1.25) - framework: >= net462
+      Google.Apis.Core (>= 1.25)
+      Zlib.Portable.Signed (>= 1.11) - framework: >= net45
+    Google.Apis.Auth (1.25) - framework: >= net462
+      Google.Apis (>= 1.25) - framework: >= net45, >= netstandard13
+      Google.Apis.Core (>= 1.25)
+    Google.Apis.Compute.v1 (1.25.0.846) - framework: >= net462
+      Google.Apis (>= 1.25) - framework: >= net45, >= netstandard13, portable-net45+win8+wp8+wpa81
+      Google.Apis.Auth (>= 1.25) - framework: >= net45, >= netstandard13, portable-net45+win8+wp8+wpa81
+    Google.Apis.Core (1.25) - framework: >= net462
+      Newtonsoft.Json (>= 7.0.1) - framework: >= net45
+    Newtonsoft.Json (7.0.1) - framework: >= net462
+    Serilog (2.5.0-dev-00817) - framework: >= net462
+    Serilog.Sinks.File (3.2) - framework: >= net462
+      Serilog (>= 2.3) - framework: >= net45, >= netstandard13
+    Serilog.Sinks.Literate (2.1.1-dev-00038) - framework: >= net462
+      Serilog (>= 2.3) - framework: >= net45, >= netstandard13
+    Serilog.Sinks.RollingFile (3.3.1-dev-00767) - framework: >= net462
+      Serilog.Sinks.File (>= 3.2) - framework: >= net45, >= netstandard13
+    System.ValueTuple (4.3) - framework: >= net452
+    Zlib.Portable.Signed (1.11) - framework: >= net462

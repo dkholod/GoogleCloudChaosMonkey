@@ -1,0 +1,13 @@
+source https://www.nuget.org/api/v2
+nuget FSharp.Configuration 1.1.0 framework: >= net462
+nuget Google.Apis 1.25.0 framework: >= net462
+nuget Google.Apis.Auth 1.25.0 framework: >= net462
+nuget Google.Apis.Compute.v1 1.25.0.846 framework: >= net462
+nuget Google.Apis.Core 1.25.0 framework: >= net462
+nuget Newtonsoft.Json 7.0.1 framework: >= net462
+nuget Serilog 2.5.0-dev-00817 dev framework: >= net462
+nuget Serilog.Sinks.File 3.2.0 framework: >= net462
+nuget Serilog.Sinks.Literate 2.1.1-dev-00038 dev framework: >= net462
+nuget Serilog.Sinks.RollingFile 3.3.1-dev-00767 dev framework: >= net462
+nuget System.ValueTuple 4.3.0 framework: >= net452
+nuget Zlib.Portable.Signed 1.11.0 framework: >= net462

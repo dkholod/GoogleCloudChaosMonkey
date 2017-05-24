@@ -1,0 +1,12 @@
+FSharp.Configuration
+Google.Apis
+Google.Apis.Auth
+Google.Apis.Compute.v1
+Google.Apis.Core
+Newtonsoft.Json
+Serilog
+Serilog.Sinks.File
+Serilog.Sinks.Literate
+Serilog.Sinks.RollingFile
+System.ValueTuple
+Zlib.Portable.Signed
